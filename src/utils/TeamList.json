@@ -1,0 +1,86 @@
+[
+  {
+    "name": "T. P. Sreenivasan IFS",
+    "image": "https://iaseicra.com/images/team/01/sreenivasan.jpg",
+    "post": "Chief Patron",
+    "desc": "Former Ambassador",
+    "id": 1
+  },
+  {
+    "name": "K Jaya Kumar IAS",
+    "image": "https://iaseicra.com/images/team/ias/jaya-kumar.png",
+    "post": "Chief Patron",
+    "desc": "Former Chief Secretary of Kerala",
+    "id": 12
+  },
+  {
+    "name": "Teeka Ram Meena IAS",
+    "image": "https://iaseicra.com/images/team/01/teeka.jpg",
+    "post": "  Patron",
+    "desc": "Former Chief Electoral Officer",
+    "id": 2
+  },
+  {
+    "name": "V M Pargi IPS",
+    "image": "https://iaseicra.com/images/team/01/pargi.jpg",
+    "post": "Chief Patron",
+    "desc": "Advisory Committee",
+    "id": 3
+  },
+  {
+    "name": "Ashraf Peringadi",
+    "image": "https://iaseicra.com/images/team/01/ashraf-peringadi.jpg",
+    "post": "Chief Patron",
+    "desc": "Playwright & Director",
+    "id": 4
+  },
+  {
+    "name": "Mohammed PK",
+    "image": "https://iaseicra.com/images/team/01/muhammad-pk.jpg",
+    "post": "Chief Patron",
+    "desc": "Managing Director",
+    "id": 5
+  },
+  {
+    "name": "M Gopinatha Kurup",
+    "image": "https://iaseicra.com/images/team/ias/gopinatha-kurup.jpeg",
+    "post": "Chief Patron",
+    "desc": "Director-Academics & Marketing",
+    "id": 6
+  },
+  {
+    "name": "Ouseppachan",
+    "image": "https://iaseicra.com/images/team/01/ouseppachan.jpg",
+    "post": "Chief Patron",
+    "desc": "Advisor In Music",
+    "id": 7
+  },
+  {
+    "name": "IM Vijayan",
+    "image": "https://iaseicra.com/images/team/01/vijayan.jpg",
+    "post": "Chief Patron",
+    "desc": "Advisor In Sports",
+    "id": 8
+  },
+  {
+    "name": "Dr. Methil Devika",
+    "image": "https://iaseicra.com/images/team/01/methil.jpg",
+    "post": "Chief Patron",
+    "desc": "Advisor In Dancer",
+    "id": 9
+  },
+  {
+    "name": "Dinesh Panicker",
+    "image": "https://iaseicra.com/images/team/01/dinesh.jpg",
+    "post": "Chief Patron",
+    "desc": "Advisor In Arts",
+    "id": 10
+  },
+  {
+    "name": "Noushad Kunji Peedikayil",
+    "image": "https://iaseicra.com/images/team/01/noushad-kunji.jpg ",
+    "post": "Chief Patron",
+    "desc": "Executive Officer (legal & Liaison)",
+    "id": 11
+  }
+]

@@ -1,7 +1,10 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Exo+2:ital,wght@0,100..900;1,100..900&display=swap');
 body {
   margin: 0;
-  font-family: "Roboto Condensed", serif;
+  font-family: "Exo 2", serif;
+  /* font-family: "Roboto Condensed", serif; */
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   background-color: #fff;
@@ -12,7 +15,8 @@ body {
   --blue: #156aa1;
   --darkblueprimary: #1d2168;
   --darkbluesecondary: #0f103e;
-  --whiteshade:#ece3e3;
+  --whiteshade: #ece3e3;
+  --green: #a3c17e;
 }
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
