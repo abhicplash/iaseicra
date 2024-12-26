@@ -1,0 +1,17 @@
+.PageTop-container {
+  width: 100%;
+  min-height: 70vh;
+  background: url("../../assets/Pagetop/banner.jpg");
+  background-position: center;
+  background-size: cover;
+}
+.bgPageTopShadow {
+  width: 100%;
+  height: 70vh;
+  background-color: #0f103e7b;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: var(--whiteshade);
+  text-transform: capitalize;
+}

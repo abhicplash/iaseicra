@@ -1,0 +1,23 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&display=swap');
+body {
+  margin: 0;
+  font-family: "Roboto Condensed", serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background-color: #fff;
+  color: black;
+}
+:root {
+  --white: #ffffff;
+  --blue: #156aa1;
+  --darkblueprimary: #1d2168;
+  --darkbluesecondary: #0f103e;
+  --whiteshade:#ece3e3;
+}
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+a {
+  text-decoration: none;
+}
