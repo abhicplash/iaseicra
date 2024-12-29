@@ -10,15 +10,17 @@ import { FaRegClock } from "react-icons/fa6";
 const Contact = () => {
   return (
     <Layout>
-      <PageTop pageName="Contact us"/>
+      <PageTop pageName="Contact us" />
       <div className="contact-container">
         <div className="first-row">
           <div className="contact">
             <div className="contactus">Contact Us</div>
             <div className="get">Get In Touch With IAS-EICRA</div>
             <p>
-              Lorem Ipsum is simply dummy text of the printing and typesetting
-              industry.Lorem Ipsum has been the industry's standard dummy
+              Get in touch with us effortlessly through our Contact page!
+              Whether you have questions, feedback, or need assistance, we’re
+              here to help. Reach out to us via the form, email, or find our
+              location on the map below.
             </p>
           </div>
 
@@ -50,19 +52,27 @@ const Contact = () => {
           <div className="message">
             <MdOutlineEmail className="messageicon" />
             <p>
-              Lorem Ipsum is simply dummy text of the printing and typesetting
-              industry.Lorem Ipsum has been the industry's standard dummy
+              Reach out to us easily through the form ! Share your inquiries,
+              feedback, or requests, and we’ll get back to you promptly.
             </p>
           </div>
           <form action="">
             <div className="form-container">
               <div className="input-wrapper">
                 <input className="input" placeholder="FirstName" type="text" />
-                <input className="input" placeholder="Your Email" type="email" />
+                <input
+                  className="input"
+                  placeholder="Your Email"
+                  type="email"
+                />
               </div>
               <div className="input-wrapper">
                 <input className="input" placeholder="Subject" type="text" />
-                <input className="input" placeholder="Your Number" type="text" />
+                <input
+                  className="input"
+                  placeholder="Your Number"
+                  type="text"
+                />
               </div>
               <textarea
                 name=""
@@ -77,8 +87,9 @@ const Contact = () => {
         <div className="third-row">
           <h1 className="googlemap">Find Us On Google Maps</h1>
           <p>
-            Lorem Ipsum is simply dummy text of the printing and typesetting
-            industry. Lorem Ipsum has been the industry's standard dummy{" "}
+            Find us conveniently with Google Maps embedded on our Contact page!
+            View our exact location and explore the easiest route to reach us.
+            We’re just a click away to guide you here.
           </p>
           <div className="mapwrapper">
             <iframe

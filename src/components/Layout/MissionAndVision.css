@@ -1,0 +1,155 @@
+.mission-vision-container {
+  /* height: 150vh; */
+  width: 100%;
+  background-color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 5rem;
+  padding: 8rem 0;
+}
+.about-img {
+  width: 40%;
+  height: 27rem;
+  background-image: url("../../assets/ias/prelims.jpg");
+  background-size: cover;
+  background-position: center;
+  border-radius: 0.5rem;
+  background-size: cover;
+  position: relative;
+  box-shadow: 1px 1px 10px 1px silver;
+}
+.smallimages {
+  width: 15rem;
+  height: 6rem;
+  bottom: -3rem;
+  position: absolute;
+  right: -3rem;
+  background-color: var(--whiteshade);
+  /* margin-left: 15rem;
+    margin-top: 23.9rem;
+    margin-bottom: 5rem; */
+  border-radius: 0.5rem;
+  display: flex;
+  gap: 0.8rem;
+  align-items: center;
+  justify-content: center;
+  box-shadow: 1px 1px 6px 1px silver;
+
+}
+.images {
+  width: 6.5rem;
+  height: 5rem;
+  border-radius: 0.3rem;
+}
+.aboutus {
+  font-family: "Playwrite AU VIC Guides", serif;
+  font-size: 1.2rem;
+  color: #f08e2a;
+}
+.about-heading {
+  font-size: 1.8rem;
+  font-weight: 600;
+  /* width: 23rem; */
+  /* width: 70%; */
+}
+.about-para {
+  /* width: 60%; */
+  color: gray;
+}
+.vision-icon {
+  width: 3rem;
+  height: 3rem;
+  /* background-color: var(--darkbluesecondary); */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 0.5rem;
+  background-color: #f08e2a;
+  margin-top: 1.2rem;
+}
+.mission-icon {
+  width: 3rem;
+  height: 3rem;
+  background-color: var(--darkbluesecondary);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 0.5rem;
+  /* background-color: #f08e2a; */
+  margin-top: 1.2rem;
+}
+.mission-img-icon {
+  width: 1rem;
+  border-radius: 0.5rem;
+}
+.vision {
+  color: white;
+  font-size: 1.4rem;
+}
+.vision-para {
+  width: 80%;
+  color: gray;
+}
+.mission-vision {
+  display: flex;
+  gap: 1rem;
+  align-items: center;
+  justify-content: center;
+}
+.about-btn {
+  width: 10rem;
+  height: 3rem;
+  /* background-color: var(--darkbluesecondary); */
+  color: white;
+  border: none;
+  margin-top: 2rem;
+  background-color: #f08e2a;
+  border-radius: 0.5rem;
+}
+.right-side-details {
+  width: 35%;
+}
+@media (max-width: 768px) {
+  .mission-vision-container {
+    flex-direction: column;
+  }
+  .about-img {
+    width: 17rem;
+    height: 17rem;
+  }
+  .smallimages {
+    display: none;
+  }
+  .images {
+    width: 4rem;
+    height: 3rem;
+  }
+  .about-heading {
+    font-size: 1.1rem;
+    text-align: center;
+    width: 90%;
+    /* width: 16rem; */
+  }
+  .about-para {
+    width: 90%;
+    text-align: center;
+  }
+  .vision-icon,
+  .mission-icon {
+    width: 3rem;
+    height: 3rem;
+    /* margin-top: 2.5rem; */
+  }
+  .vision-para {
+    width: 70%;
+    /* width: 13rem; */
+  }
+  .right-side-details {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+  }
+}

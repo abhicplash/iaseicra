@@ -32,6 +32,9 @@ const Navbar = () => {
           <Link to={"/about"} className="navMainIcon">
             <li className="item">about us</li>
           </Link>{" "}
+          <Link to={"/iaseicra"} className="navMainIcon">
+            <li className="item">IAS EICRA</li>
+          </Link>{" "}
           <Link to={"/programs"} className="navMainIcon">
             <li className="item">Programs</li>
           </Link>{" "}
@@ -58,6 +61,9 @@ const Navbar = () => {
         </Link>
         <Link to={"/about"}>
           <li className="item">about us</li>
+        </Link>{" "}
+        <Link to={"/iaseicra"}>
+          <li className="item">IAS EICRA</li>
         </Link>{" "}
         <Link to={"/programs"}>
           <li className="item">Programs</li>

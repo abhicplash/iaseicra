@@ -1,19 +1,18 @@
-import React, { Fragment } from "react";
+import React from "react";
 import Layout from "../Layout/Layout";
+import HomeBanner from "../Layout/HomeBanner";
+// import SwiperComponent from "../Layout/SwiperComponent";
+import Carousel from "../Layout/Carousel";
+// import CircularDemo from "../Layout/CircularDemo";
 
 const Home = () => {
   return (
     <Layout>
-      <div className="home-container">
-        <h1>home</h1>
-        <h1>home</h1>
-        <h1>home</h1>
-        <h1>home</h1>
-        <h1>home</h1>
-        <h1>home</h1>
-      </div>
+      <HomeBanner />
+      <Carousel/>
     </Layout>
   );
 };
 
 export default Home;
+// Carousel

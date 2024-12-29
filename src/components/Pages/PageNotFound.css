@@ -1,0 +1,62 @@
+.page-container {
+  width: 100%;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  background: url("https://www.betterup.com/hubfs/Blog%20Images/Employee%20handbook/employee-handbook-hands-on-notebook.jpg");
+  background-size: cover;
+  background-position: center;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+  text-transform: capitalize;
+}
+.image-shadow {
+  width: 100%;
+  min-height: 100vh;
+  background: linear-gradient(
+    to bottom,
+    #1d21689b,
+    #0f103e98
+  );
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+.mainhead {
+  color: orange;
+  font-size: 4rem;
+  font-weight: 800;
+}
+.pagenotfound {
+  color: white;
+  font-weight: 800;
+}
+.para {
+  color: white;
+}
+.button {
+  width: 9rem;
+  height: 2.5rem;
+  border-radius: 3rem;
+  border: none;
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: orange;
+  margin-top: 2rem;
+  font-family: inherit;
+  text-transform: capitalize;
+  /* margin-left: 36rem; */
+}
+@media (max-width: 768px) {
+  .page-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+}

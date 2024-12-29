@@ -1,0 +1,36 @@
+.HomeBanner-container {
+  width: 100%;
+  min-height: 100vh;
+  background: url("../../assets/banner/banner.jpg");
+  background-position: center;
+  background-size: cover;
+}
+.bannerShadow {
+  width: 100%;
+  min-height: 100vh;
+  background: linear-gradient(to right, #0f103ee2, #ffffff0a);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+  color: #fff;
+}
+.Bannerdetails {
+  text-align: left;
+}
+.Bannerdetails h1 {
+  font-size: 3.5rem;
+}
+.Bannerdetails h2 {
+  text-transform: capitalize;
+  width: 40%;
+}
+@media (max-width: 768px) {
+  .Bannerdetails {
+    text-align: center;
+  }
+  .Bannerdetails h2 {
+    width: 100%;
+  }
+}
