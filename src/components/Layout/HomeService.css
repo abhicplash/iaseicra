@@ -1,0 +1,144 @@
+.HomeServiceContainer {
+  width: 100%;
+  min-height: 80vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  /* border: 1px solid red; */
+  gap: 3%;
+}
+.serviceDetails {
+  width: 45%;
+  /* border: 1px solid red; */
+  display: flex;
+  flex-direction: column;
+  /* align-items: center; */
+  justify-content: center;
+  /* text-align: center; */
+  gap: 10px;
+}
+.homeservicebullets {
+  width: 45%;
+  display: flex;
+  /* text-align: start; */
+  align-items: center;
+  /* justify-content: start; */
+  text-transform: capitalize;
+  gap: 5px;
+  /* border: 1px solid red; */
+  /* color: var(--darkblueprimary); */
+  /* font-size: 1.4rem; */
+}
+.homeservicebullets .hsicon {
+  font-size: 1.4rem;
+  color: var(--blue);
+}
+.listWrapper {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: start;
+  align-items: start;
+  /* justify-content: space-between; */
+  /* align-items: center; */
+  gap: 5px;
+}
+.serviceImgWrapper {
+  width: 30%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  /* border: 1px solid red; */
+  position: relative;
+}
+.serviceImgWrapper .Mainimg {
+  height: 60vh;
+  width: 100%;
+  border-radius: 100%;
+  /* border: 1px solid red; */
+  position: relative;
+  filter: drop-shadow(-1px -1px 2px white);
+  border: 1px solid silver;
+}
+.lowerImgleft {
+  position: absolute;
+  z-index: 10;
+  box-shadow: -1px -1px 10px 1px white;
+  /* filter: drop-shadow(-1px -1px 2px white); */
+  bottom: 0;
+  right: 0;
+  height: 10rem;
+  width: 10rem;
+  border-radius: 100%;
+}
+.lowerImgright {
+  position: absolute;
+  z-index: 10;
+  box-shadow: -1px -1px 10px 1px white;
+  /* filter: drop-shadow(1px/ 1px 2px white); */
+  top: 0;
+  left: 0;
+  height: 9rem;
+  width: 9rem;
+  border-radius: 100%;
+}
+.serviceDetails .head {
+  /* border: 1px solid red; */
+  /* height: 2rem; */
+  font-size: 3rem;
+  color: var(--blue);
+  font-weight: 600;
+}
+.serviceDetails button {
+  height: 2rem;
+  width: 8rem;
+  /* padding:0.5rem 2rem ;  */
+}
+.serviceDetailsPara {
+  width: 100%;
+}
+@media (max-width: 768px) {
+  .serviceDetailsPara {
+    width: 95%;
+  }
+  .HomeServiceContainer {
+    flex-direction: column;
+    padding: 1rem 0;
+  }
+  .serviceDetails {
+    width: 100%;
+    align-items: center;
+    text-align: center;
+  }
+  .homeservicebullets {
+    width: 90%;
+    /* justify-content: center; */
+  }
+  .listWrapper {
+    align-items: center;
+    justify-content: center;
+  }
+  .serviceImgWrapper {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    padding: 1rem 0;
+    /* border: 1px solid red; */
+  }
+  .serviceImgWrapper .lowerImgright {
+    display: none;
+  }
+  .serviceImgWrapper .lowerImgleft {
+    display: none;
+  }
+  .serviceImgWrapper .Mainimg {
+    width: 80%;
+    height: 16rem;
+    /* min-height: 50vh; */
+  }
+}
+@media (max-width: 480px) {
+  .serviceImgWrapper .Mainimg {
+    width: 90%;
+    height: 16rem;
+  }
+}

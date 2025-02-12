@@ -3,13 +3,18 @@ import Layout from "../Layout/Layout";
 import HomeBanner from "../Layout/HomeBanner";
 // import SwiperComponent from "../Layout/SwiperComponent";
 import Carousel from "../Layout/Carousel";
+import HomeService from "../Layout/HomeService";
+import AboutTeam from "../Layout/AboutTeam";
+import HomeContact from "../Layout/HomeContact";
 // import CircularDemo from "../Layout/CircularDemo";
 
 const Home = () => {
   return (
     <Layout>
       <HomeBanner />
-      <Carousel/>
+      <HomeService />
+      <AboutTeam />
+      <HomeContact/>
     </Layout>
   );
 };

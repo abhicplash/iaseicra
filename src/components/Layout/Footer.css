@@ -1,11 +1,12 @@
 .footerContainer {
   width: 100%;
   min-height: 40vh;
-  background: linear-gradient(
+  background: linear-gradient(to right bottom, #156aa1, #1d2168);
+  /* background: linear-gradient(
     to bottom,
     var(--darkbluesecondary),
     var(--darkblueprimary)
-  );
+  ); */
   padding: 2rem 0;
   display: flex;
   gap: 1rem;

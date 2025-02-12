@@ -22,12 +22,9 @@
 }
 .UpscCard-Container a button {
   width: 16.5rem;
+  border-radius: 0;
   height: 2.5rem;
-  background: linear-gradient(
-    to bottom,
-    var(--darkblueprimary),
-    var(--darkbluesecondary)
-  );
+  background: linear-gradient(to right bottom, #156aa1, #1d2168);
   border: none;
   color: var(--white);
   font-family: inherit;

@@ -44,11 +44,12 @@
   align-items: center;
   justify-content: center;
   gap: 0.8rem;
-  background: linear-gradient(
+  /* background: linear-gradient(
     to bottom,
     var(--darkblueprimary),
     var(--darkbluesecondary)
-  );
+  ); */
+  background: linear-gradient(to right bottom, #156aa1, #1d2168);
 }
 .whitecard {
   width: 14rem;
@@ -146,11 +147,12 @@
   /* background-color: var(--darkbluesecondary); */
   color: white;
   font-family: inherit;
-  background: linear-gradient(
+  /* background: linear-gradient(
     to bottom,
     var(--darkblueprimary),
     var(--darkbluesecondary)
-  );
+  ); */
+  background: linear-gradient(to right bottom, #156aa1, #1d2168);
   font-size: 1.05rem;
 }
 .form-container {

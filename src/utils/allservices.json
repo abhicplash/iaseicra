@@ -1,0 +1,50 @@
+[
+  {
+    "servicename": "Indian Civil Service Coaching",
+    "id": 0,
+    "icon": "https://iaseicra.com/images/services/civil-service.jpg",
+    "desc": "Unlock your potential with elite Indian Civil Services coaching in the UAE, where excellence meets ambition"
+  },
+  {
+    "servicename": "vocal music",
+    "id": 1,
+    "icon": "https://iaseicra.com/images/services/vocal-music.jpg",
+    "desc": "Learn the art of vocal music with expert training to enhance your voice, technique, and confidence"
+  },
+  {
+    "servicename": "Dance",
+    "id": 2,
+    "icon": "https://iaseicra.com/images/services/dance.jpg",
+    "desc": "Experience the joy of dance with professional training in diverse styles to express yourself gracefully"
+  },
+  {
+    "servicename": "Musical Instruments",
+    "id": 3,
+    "icon": "https://iaseicra.com/images/services/instruments.jpg",
+    "desc": "Master the art of musical instruments with expert guidance and personalized lessons for all skill levels"
+  },
+  {
+    "servicename": "Sports",
+    "id": 4,
+    "icon": "https://iaseicra.com/images/services/sports.jpg",
+    "desc": "Excel in sports with professional coaching, skill development, and a focus on teamwork and fitness"
+  },
+  {
+    "servicename": "Parallel School Education",
+    "id": 5,
+    "icon": "https://iaseicra.com/images/services/parallel-education.jpg",
+    "desc": "Enhance learning with parallel school education, offering personalized support and academic excellence."
+  },
+  {
+    "servicename": "Martial Arts",
+    "id": 6,
+    "icon": "https://iaseicra.com/images/services/martial-arts.jpg",
+    "desc": "Build strength and discipline with expert martial arts training in a variety of styles"
+  },
+  {
+    "servicename": "Painting and Pencil Drawing",
+    "id": 7,
+    "icon": "https://iaseicra.com/images/services/paintings.jpg",
+    "desc": "Unleash your creativity with expert guidance in  drawing, mastering techniques for artistic expression."
+  }
+]

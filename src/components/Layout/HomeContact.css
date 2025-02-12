@@ -1,0 +1,35 @@
+.HomeContactContainer {
+  width: 100%;
+  min-height: 80vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.contactWrapper {
+  width: 70%;
+  height: 50vh;
+  /* border: 1px solid red; */
+  border-radius: 10px;
+  background: linear-gradient(to right bottom, #156aa1, #1d2168);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  gap: 10px;
+}
+.contactWrapper h1 {
+  color: var(--whiteshade);
+  text-transform: capitalize;
+  width: 90%;
+}
+.homeContactbtn {
+  padding: 0.5rem 2rem;
+  background-color: #fff;
+  font-family: inherit;font-size: 1.2em;
+}
+@media (max-width: 768px) {
+  .contactWrapper {
+    width: 95%;
+  }
+}

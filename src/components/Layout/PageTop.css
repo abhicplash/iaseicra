@@ -8,7 +8,7 @@
 .bgPageTopShadow {
   width: 100%;
   height: 70vh;
-  background-color: #0f103e32;
+  background: linear-gradient(to left bottom, #1569a1a4, #ffffff0a);
   display: flex;
   align-items: center;
   justify-content: center;

@@ -8,6 +8,7 @@ body {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   background-color: #fff;
+  /* background-color: red; */
   color: black;
 }
 :root {
@@ -23,5 +24,23 @@ code {
     monospace;
 }
 a {
+  display: flex;
+  align-items: center;
   text-decoration: none;
+}
+.eicrabutton {
+  background: linear-gradient(to right bottom, #156aa1, #1d2168);
+  font-family: inherit;
+  color: white;
+  font-size: 1rem;
+  border: 1px solid var(--blue);
+  /* height: 5rem; */
+  /* padding: 1rem 5rem; */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 5px;
+}
+.eicrabutton:hover {
+  background: linear-gradient(to right bottom, #156aa1, #1d2168, #156aa1);
 }

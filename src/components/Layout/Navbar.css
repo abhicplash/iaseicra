@@ -4,15 +4,10 @@
   display: flex;
   align-items: center;
   justify-content: space-around;
-  /* border: 1px solid red; */
-  color: var(--white);
+   color: var(--white);
   position: absolute;
   top: 0;
-  background: linear-gradient(
-    to bottom,#1d2168ac,#0f103e00
-    /* var(--darkblueprimary),
-    var(--darkbluesecondary) */
-  );
+  background: linear-gradient(to bottom, #1d2168ac, #0f103e00);
 }
 .logoWrapper {
   display: flex;
@@ -25,7 +20,6 @@
 }
 .logoWrapper .logoPic {
   height: 8vh;
-  /* height: 100%; */
 }
 .logoWrapper .logoWrit {
   height: 3rem;
@@ -48,9 +42,8 @@
   align-items: center;
   flex-direction: column;
   text-align: center;
-  background-color: var(--darkbluesecondary);
-  /* background-color: #fff; */
-  /* background-color: #c3c2c2; */
+  /* background-color: var(--darkbluesecondary); */
+  background: linear-gradient(to right bottom, #156aa1, #1d2168);
   gap: 10px;
   animation: slideup .3s forwards;
   z-index: 70;
@@ -72,16 +65,15 @@
   width: 90%;
   height: 3rem;
   color: var(--white);
-  border: 1px solid var(--darkblueprimary);
-  /* box-shadow: 0.5px 0.5px 3px 0.5px gray; */
+  border: 1px solid var(--blue);
   border-radius: 5px;
   font-size: 1.2rem;
-  /* font-weight: 600; */
-  background: linear-gradient(
+  /* background: linear-gradient(
     to bottom,
     var(--darkblueprimary),
     var(--darkbluesecondary)
-  );
+  ); */
+  background: linear-gradient(to right bottom, #156aa1, #1d2168);
 }
 .NavlogoWrapper {
   display: flex;
@@ -109,7 +101,6 @@
   justify-content: center;
   list-style: none;
   width: 50%;
-  /* border: 1px solid; */
   text-transform: capitalize;
   gap: 5%;
 }
